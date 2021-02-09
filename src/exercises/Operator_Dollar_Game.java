@@ -14,7 +14,7 @@ public class Operator_Dollar_Game {
         int fifty_pence = 50;
         int sum_coins;
         int sum;
-        double over = 100.00;
+
 
     //1. Ask user how much coins it has and what type:
     System.out.println("How much 1p do you have?");
@@ -45,7 +45,7 @@ public class Operator_Dollar_Game {
     }else {
 
         sum = sum_coins - 100;
-        System.out.println("You have over " + sum_coins + "p");
+        System.out.println("You have over " + sum + "p");
     }
 
     }
